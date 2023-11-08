@@ -35,7 +35,7 @@ Deploying a WordPress application on an EC2 instance involves several steps. Her
    - Set your domain or public IP as the `ServerName`.
 
 **Step 7: Start Apache:**
-   - Start and enable Apache: `sudo systemctl enable httpd`.
+   - Start and enable Apache: `sudo systemctl enable apache2.service`.
 
 **Step 8: Access Your WordPress Site:**
    - Open your web browser and navigate to your EC2 instance's public IP or custom domain.
